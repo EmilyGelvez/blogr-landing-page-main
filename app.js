@@ -8,7 +8,7 @@ hamburger.addEventListener('click',()=>{
     if(band === false){
         nav.style.display = 'none';
 
-        iconoHamburger.src = 'file:///C:/Users/Emily%20Gelvez/Desktop/MisPaginasWeb/Retos/reto%20p%C3%A1gina%20rosada%20junior/blogr-landing-page-main/images/icon-hamburger.svg';
+        iconoHamburger.src = 'images/icon-hamburger.svg';
 
         band = true;
     }
@@ -16,7 +16,7 @@ hamburger.addEventListener('click',()=>{
     else if(band === true){
         nav.style.display = 'block';
 
-        iconoHamburger.src = 'file:///C:/Users/Emily%20Gelvez/Desktop/MisPaginasWeb/Retos/reto%20p%C3%A1gina%20rosada%20junior/blogr-landing-page-main/images/icon-close.svg';
+        iconoHamburger.src = 'images/icon-close.svg';
 
         band = false;
     }
